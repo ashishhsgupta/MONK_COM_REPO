@@ -1,0 +1,197 @@
+h2.product-heading{
+  text-align: center;
+}
+.add-product{
+  display: flex;
+  padding: 0px 0px 10px 0px;
+  column-gap: 12px;
+  margin-left: 33%;
+}
+.product-list{
+    align-items: center;
+}
+.product-heading{
+    padding: 0px 275px 0px 0px;
+    font-size: 20px;
+}
+.edit-btn{
+    position: relative;
+    width: 220px;
+    height: 40px;
+    border: 1px solid green;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.edit-btn-btn{
+    background: none;
+    border: none;
+}
+.input-field{
+    margin-top: 5px;
+    border: none;
+    outline: none;
+}
+.input-field>input{
+    border: none;
+    outline: none;
+    color: #117a65;
+}
+button.btn-secondary{
+  height: 40px;
+  background: #117a65;
+  border-radius: 3px;
+  border: 1px solid #117a65;
+  outline: none;
+  color: white;
+  width: 148px;
+  margin: 0px 10px 0px 12px;
+}
+span#drag-variants{
+  margin-right: 90px;
+}
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.check-inside-main{
+  display: flex;
+  align-items: center;
+
+}
+button.btn-btn-light{
+  width: 225px;
+  margin-left: 52px;
+    border: 2px solid grey;
+    background-color: #fff;
+    border-radius: 3px;
+    outline: none;
+    height: 40px;
+}
+.discount-btn-main{
+  margin: 0px -8px;
+}
+input.discount-input{
+  width: 73px;
+  height: 40px;
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0px 10px 0px 2px;
+}
+.discount-fields{
+  margin: 0px 10px 0px 10px;
+}
+select.discount-select{
+  height: 40px;
+    border-radius: 3px;
+    outline: none;
+    margin: 0px 0px 0px -6px;
+}
+.selected-product{
+  margin: 10px 0px 0px 0px;
+}
+.variant-link-main{
+  margin-right: 45px;
+}
+p.selected-variant{
+  border: 1px solid rgb(65, 46, 46);
+    border-radius: 20px;
+    outline: none;
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(45, 81, 45);
+    width: 220px;
+    margin: 0px 0px 6px -90px;
+}
+p.variant-checkbox{
+  margin-left: 20px;
+}
+span.model-variant-item{
+  padding-left: 10px;
+}
+span.model-varial-price{
+  padding-left: 290px;
+}
+.product-add-btn{
+  display: flex;
+  justify-content: center;
+  margin: 0px 40px 0px 153px;
+}
+a#product-add-btn{
+  display: flex;
+    justify-content: center;
+    margin: 11px 0px 5px 53px;
+}
+p.product-count{
+  padding-right: 50px;
+  color: rgb(49, 49, 49);
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .product-list {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  /* .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .actions button {
+    margin-left: 5px;
+  }
+  
+  .variants {
+    margin-top: 10px;
+  }
+  
+  .product-variant {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .product-picker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+  } */
+  
